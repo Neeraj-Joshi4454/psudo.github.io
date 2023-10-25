@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        .main{
+
+            height: 100vh;
+            width: 100vw;
+            background-image: url('https://img.freepik.com/free-photo/top-view-arrangement-natural-material-stationery_23-2148898233.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698105600&semt=ais');
+            /* background-repeat: no-repeat; */
+            background-size: 100% 100%;
+
+
+        }
+
+        /* .main::before{
+
+            content: "";
+
+            height: 100vh;
+            width: 100vw;
+            border: 1px solid red;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, .5);
+
+
+        } */
+
+        .main{
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .main h1{
+
+            z-index: 1000;
+            font-size: 4.5rem;
+            color: white;
+            text-shadow: 2px 2px 5px black;
+            text-decoration: underline;
+        }
+
+        .box{
+
+            height: 100vh;
+            width: 100vw;
+            /* border: 1px solid red; */
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, .5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+
+    </style>
+
+</head>
+<body>
+    
+    <!-- <div id="box">
+        <h3>box</h3>
+    </div> -->
+
+
+
+    <div class="main">
+        <!-- <h1>Hello from Felix ITs</h1> -->
+
+        <div class="box">
+            <h1>Hello from Felix ITs</h1>
+        </div>
+    </div>
+
+</body>
+</html>
